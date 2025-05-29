@@ -1,13 +1,13 @@
-spring:
+#spring:
   #datasource:
     #driver-class-name: com.mysql.cj.jdbc.Driver
     #url: jdbc:mysql://3.39.19.42:3306/mydb/spring?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
     #username: root
     #password: We7380we@
-  jpa:
-    open-in-view: true
-    hibernate:
-      ddl-auto: create
+  #jpa:
+    #open-in-view: true
+    #hibernate:
+      #ddl-auto: create
 
 springdoc:
   swagger-ui:
